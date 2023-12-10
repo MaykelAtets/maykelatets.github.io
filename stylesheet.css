@@ -1,0 +1,212 @@
+body {
+    color:#e7dede;
+    background:#000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container a{
+      transition: 1s;
+      padding: 5px 5%;
+}
+#header {
+      background-color:#000000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color:#000000;
+}
+
+nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+
+nav ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+}
+nav ul li a{
+      color:#ffffff;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 10px;
+}
+
+nav ul li a:hover{
+      background-color: gray;
+}
+
+.name{
+      margin-top: 20%;
+      font-size: 50px;
+      margin-bottom: 20%;
+}
+
+
+#about{
+      padding: 80px 0;
+      color: rgb(240, 240, 240);
+}
+
+.row{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+
+.about-pic{
+      flex-basis: 40%;
+
+}
+
+.about-pic img{
+      width: 80%;
+      border-radius: 15px;
+}
+
+.about-text{
+      flex-basis: 55%;
+}
+
+.about-title{
+      font-size: 60px;
+      font-weight: 500;
+      color: #e7dede;
+}
+
+.about-desc{
+      font-size: 40px;
+}
+
+#education{
+      padding-top: 20%;
+      padding-bottom: 20%;
+}
+.row-one{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+
+.school-font{
+      font-size: 20px;
+}
+
+.elementary .junior-hs .senior-hs .college{
+      flex-basis: 23%;
+}
+
+.elementary:hover{
+      font-size: 40px;
+      transition: 0.8s ease-in-out;
+      color: rgb(230, 102, 102);
+      opacity: 1;
+}
+
+.junior-hs:hover{
+      font-size: 40px;
+      transition: 0.8s ease-in-out;
+      color: rgb(230, 102, 102);
+}
+
+.senior-hs:hover{
+      font-size: 40px;
+      transition: 0.8s ease-in-out;
+      color: rgb(230, 102, 102);
+}
+
+.college:hover{
+      font-size: 40px;
+      transition: 0.8s ease-in-out;
+      color: rgb(230, 102, 102);
+}
+
+#experience{
+      padding-top: 20%;
+      padding-bottom: 20%;
+}
+
+
+.first-job{
+      font-size: 35px;
+      text-align: center;
+}
+
+.first-job a{
+      text-decoration: none;
+      color: white;
+}
+
+.first-job a:hover{
+      color: cyan;
+}
+
+.second-job{
+      font-size: 35px;
+      text-align: center;
+}
+
+.second-job a{
+      text-decoration: none;
+      color: white;
+}
+
+.second-job a:hover{
+      color: cyan;
+}
+
+.footer-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+  }
+
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-social ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.myButton {
+      background-color: #ffffff; 
+      border: none;
+      color: #000000; 
+      padding: 15px 32px; 
+      text-align: center; 
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer; 
+      box-shadow: 0 9px #999; 
+      transition-duration: 0.3s;
+  }
+  
+  .myButton:hover { 
+      background-color: #c52f7a;
+      color: white;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+  }
+  
+.myImage {
+      width: 300px;
+}
+
+
+  
+  
